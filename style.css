@@ -5,6 +5,7 @@ body {
   background-image: url(./images/background.png);
   background-size: cover;
   background-repeat: no-repeat;
+  width: 100%;
 }
 .container {
     display: flex;
@@ -57,7 +58,7 @@ body {
     }
     #Guess {
     width: 15vh;
-    height: 2vh;
+    height: 3vh;
   }
     #checking {
     font-weight: bold;
