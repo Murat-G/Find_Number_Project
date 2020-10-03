@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 body {
-  background-image: url(/images/background.png);
+  background-image: url(./images/background.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -34,7 +34,7 @@ body {
     text-align: center;
 }
 #output, #count_num {
-    color: #f4f4f4;
+    color: red;
 }
 
 @media screen and (max-width: 760px) {
