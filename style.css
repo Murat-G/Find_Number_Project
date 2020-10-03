@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+}
+body {
+  background-image: url(/images/background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin-top: 50px;
+}
+#checking {
+    background-color: aqua;
+    font-weight: bold;
+    font-size: large;
+    width: 10vh;
+    height: auto;
+    cursor: pointer;
+    border-radius: 10px;
+    margin: 20 px auto;  
+}
+#checking:hover {
+    background-color: red;
+    color: #f4f4f4;
+    font-size: 16px;
+}
+#Guess {
+    width: 20vh;
+    height: 3vh;
+    text-align: center;
+}
+#output, #count_num {
+    color: #f4f4f4;
+}
+
+@media screen and (max-width: 760px) {
+    .container{
+      margin-top:30px;
+      font-size:15px;
+    }
+  }
+
+@media screen and (max-width: 650px) {
+    .container{
+      margin-top:20px;
+      font-size:10px;
+    }
+  }
+@media screen and (max-width: 490px) {
+    .container{
+      margin-top:10px;
+      font-size:10px;
+    }
+    #Guess {
+    width: 15vh;
+    height: 2vh;
+  }
+    #checking {
+    font-weight: bold;
+    font-size: small;
+    width: auto;
+    height: auto; 
+}
+}
